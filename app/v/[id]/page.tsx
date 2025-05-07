@@ -88,7 +88,7 @@ export default async function Video({ params }: PageProps) {
         name: `Bokep ${file.title}`,
         image: file.splash_img,
         description: `Video Bokep ${file.title} di ${SITENAME} Video Bokep Indo Bocil Ngentot Jilbab Smp Mama Viral`,
-        url: `https://bocilmaininmemek.pages.dev/v/${file.filecode}#${file.title}`,
+        url: `https://bocilmaininmemek.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
@@ -108,7 +108,7 @@ export default async function Video({ params }: PageProps) {
         headline: `Bokep ${file.title}`,
         image: file.splash_img,
         description: `Video Bokep ${file.title} di ${SITENAME} Video Bokep Indo Bocil Ngentot Jilbab Smp Mama Viral`,
-        url: `https://bocilmaininmemek.pages.dev/v/${file.filecode}#${file.title}`,
+        url: `https://bocilmaininmemek.pages.dev/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
@@ -125,7 +125,7 @@ export default async function Video({ params }: PageProps) {
                 userInteractionCount: `${file.views}`,
             interactionType: {
                 '@type': `ReadAction`,
-                target: `https://bocilmaininmemek.pages.dev/v/${file.filecode}#${file.title}`
+                target: `https://bocilmaininmemek.pages.dev/v/${file.filecode}`
             }  
         }
         }
@@ -137,7 +137,7 @@ export default async function Video({ params }: PageProps) {
 <meta itemProp="description" content={`Video Bokep ${file.title} di ${SITENAME} Video Bokep Indo Bocil Ngentot Jilbab Smp Mama Viral`} />
 <meta itemProp="duration" content={`${file.length}`} />
 <meta itemProp="thumbnailUrl" content={`${file.splash_img}`} />
-<meta itemProp="embedURL" content={`https://doodstream.com/e/${file.filecode}#${file.title}`} />
+<meta itemProp="embedURL" content={`https://doodstream.com/e/${file.filecode}`} />
 <meta itemProp="uploadDate" content={`${new Date(
             file.uploaded + ".000Z"
         ).toISOString()}`} />
