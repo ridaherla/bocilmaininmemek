@@ -58,11 +58,11 @@ export async function generateMetadata(
             title,
             description,
             images: [...previousOgImages, image],
-            url: `/v/${file.filecode}#${file.title}`,
+            url: `/v/${file.filecode}`,
             type: `article`,
         },
         alternates: {
-            canonical: `/v/${file.filecode}#${file.title}`,
+            canonical: `/v/${file.filecode}`,
         },
     };
 }
